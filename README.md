@@ -21,9 +21,14 @@ and 12 short world lines, under one big date block.
 
 ## Design notes
 
-Readability over density: fewer stories than a maximal front page,
-but every headline is set at 13 px or larger and the date at 33 px,
-so the page still reads when shrunk to about 300 px wide. No world
-map — the canvas goes to text instead.
+Readability over density, with the big stories illustrated: all
+three leads carry a scene drawn by the renderer's own code (COP31
+conference table under a sun, Riyadh interception trails over a
+night skyline, Andes ridges with a fault crack), and the first row
+of cards carries illustrated strips (missile, Mercury probe, virus,
+trade flags). Text stays dominant: lead headlines 20-25 px, card
+headlines 14 px, the date 33 px, so the page still reads when
+shrunk to about 300 px wide. Illustrations were paid for by
+reallocating canvas, never by shrinking text below those floors.
 
 License: MIT (see LICENSE).
